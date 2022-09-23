@@ -1,0 +1,86 @@
+.header-navigation {
+}
+.navigation-list {
+  display: flex;
+  column-gap: 50px;
+}
+.webstudio-link:not(:last-child) {
+}
+.navigation-item:not(:last-child) {
+  /* margin-right: 50px; */
+  column-gap: 50px;
+}
+.webstudio-contact-list {
+  margin-left: auto;
+}
+.contact-item:not(:last-child) {
+  margin-right: 30px;
+}
+.webstudio-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  transition: color var(--transition-dur-and-func);
+}
+.webstudio-link.current::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 32px;
+  background-color: var(--button-color);
+  height: 4px;
+  border-radius: 2px;
+}
+
+.webstudio-link.portfolio-current::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 31px;
+  background-color: var(--button-color);
+  height: 4px;
+  border-radius: 2px;
+}
+
+.header-navigation {
+}
+.header-navigation ul a:hover,
+.adress-link:hover,
+.header-navigation ul a:focus,
+.adress-link:focus {
+  color: var(--text-color);
+}
+.webstudio-link {
+  letter-spacing: 0.02em;
+  margin-left: auto;
+}
+
+.adress-link {
+  color: var(--portfolio-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  display: flex;
+  gap: 10px;
+}
+
+.current {
+  color: var(--button-color);
+}
+
+.portfolio-current {
+  color: var(--button-color);
+}
+.icon-contact {
+  width: 16px;
+  height: 12px;
+  cursor: pointer;
+}
+.icon-contact {
+  fill: currentColor;
+}
+
+.icon-number {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+}

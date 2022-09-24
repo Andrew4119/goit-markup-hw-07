@@ -133,11 +133,11 @@ img {
   column-gap: 50px;
 }
 
-.webstudio-contact-list {
+.webstudio-contact__list {
   margin-left: auto;
 }
 
-.contact-item:not(:last-child) {
+.webstudio-contact__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -165,7 +165,7 @@ img {
   color: var(--text-color);
 }
 
-.webstudio-link {
+.webstudio__link {
   letter-spacing: 0.02em;
   margin-left: auto;
 }

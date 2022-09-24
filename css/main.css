@@ -192,10 +192,6 @@ img {
   color: var(--button-color);
 }
 
-.portfolio__current {
-  color: var(--button-color);
-}
-
 .icon-contact {
   width: 16px;
   height: 12px;

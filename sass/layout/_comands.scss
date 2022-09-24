@@ -60,16 +60,14 @@
   background-color: var(--section-color);
   transition: color var(--transition-dur-and-func),
     background-color var(--transition-dur-and-func);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    color: var(--section-color);
+  }
 }
 .social-network {
   fill: currentColor;
   width: 20px;
   height: 20px;
-&:hover,
-&:focus {
-  background-color: #2196f3;
-  color: var(--section-color);
 }
-
-}
-

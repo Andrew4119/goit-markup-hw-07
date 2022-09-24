@@ -8,10 +8,10 @@
   /* margin-right: 50px; */
   column-gap: 50px;
 }
-.webstudio-contact-list {
+.webstudio-contact__list {
   margin-left: auto;
 }
-.contact-item:not(:last-child) {
+.webstudio-contact__item:not(:last-child) {
   margin-right: 30px;
 }
 .webstudio-navigation__link {
@@ -36,7 +36,7 @@
 .adress-link:focus {
   color: var(--text-color);
 }
-.webstudio-link {
+.webstudio__link {
   letter-spacing: 0.02em;
   margin-left: auto;
 }

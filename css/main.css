@@ -109,7 +109,7 @@ img {
   align-items: center;
 }
 
-.webstudio-header-logo {
+.webstudio-header__logo {
   color: var(--logo-color);
   font-family: var(--font-raleway);
   font-weight: 700;
@@ -404,15 +404,15 @@ img {
   background-color: var(--section-color);
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
 }
+.social-network-link:hover, .social-network-link:focus {
+  background-color: #2196f3;
+  color: var(--section-color);
+}
 
 .social-network {
   fill: currentColor;
   width: 20px;
   height: 20px;
-}
-.social-network:hover, .social-network:focus {
-  background-color: #2196f3;
-  color: var(--section-color);
 }
 
 .clients-section {

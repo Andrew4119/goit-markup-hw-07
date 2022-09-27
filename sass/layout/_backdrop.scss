@@ -37,10 +37,10 @@
   background-color: transparent;
   color: var(--logo-color);
   transition: fill var(--transition-dur-and-func);
-&:hover,
-&:focus {
-  fill: var(--button-color);
-}
+  &:hover,
+  &:focus {
+    fill: var(--button-color);
+  }
 }
 
 .icon-dagger {
@@ -74,13 +74,11 @@
   padding-left: 42px;
   transition: border-color var(--transition-dur-and-func);
   display: block;
-&:hover,
-&:focus {
-  border-color: var(--text-color);
-  transition: border-color var(--transition-dur-and-func);
-}
-
-
+  &:hover,
+  &:focus {
+    border-color: var(--text-color);
+    transition: border-color var(--transition-dur-and-func);
+  }
 }
 .backdrop-textarea {
   width: 448px;
@@ -90,11 +88,12 @@
   padding: 12px 16px 12px 16px;
   outline: none;
   resize: none;
+  margin-bottom: 20px;
   transition: border-color var(--transition-dur-and-func);
-&:hover,
-&:focus {
-  border-color: var(--text-color);
-}
+  &:hover,
+  &:focus {
+    border-color: var(--text-color);
+  }
 }
 
 .backdrop-title-text {
@@ -105,9 +104,9 @@
   letter-spacing: 0.01em;
   color: var(--portfolio-color);
   margin-bottom: 4px;
-&:not(:first-child) {
-  margin-top: 4px;
-}
+  &:not(:first-child) {
+    margin-top: 4px;
+  }
 }
 .backdrop-icon {
   fill: currentColor;
@@ -117,21 +116,20 @@
   width: 18px;
   height: 18px;
   transition: fill var(--transition-dur-and-func);
-&:hover,
-&:focus {
-  fill: var(--button-color);
-  transition: fill var(--transition-dur-and-func);
-}
-
+  &:hover,
+  &:focus {
+    fill: var(--button-color);
+    transition: fill var(--transition-dur-and-func);
+  }
 }
 .form-backdrop {
   position: relative;
   display: block;
   margin-bottom: 10px;
-&:hover .backdrop-icon,
-&:focus .backdrop-icon {
-  fill: var(--text-color);
-}
+  &:hover .backdrop-icon,
+  &:focus .backdrop-icon {
+    fill: var(--text-color);
+  }
 }
 
 .checkbox {
@@ -156,13 +154,13 @@
 .checkbox-button {
   position: absolute;
   appearance: none;
-&:checked + .checkbox-svg {
-  background-color: var(--button-color);
-  border-color: var(--button-color);
-}
-&:checked + .checkbox-svg .checkbox-item {
-  display: block;
-}
+  &:checked + .checkbox-svg {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+  }
+  &:checked + .checkbox-svg .checkbox-item {
+    display: block;
+  }
 }
 .checkbox-item {
   display: none;
@@ -179,8 +177,6 @@
   margin-left: 13px;
 }
 
-
-
 .sumbit-button {
   min-width: 200px;
   padding: 10px 52px;
@@ -193,10 +189,8 @@
   line-height: 1.875;
   letter-spacing: 0.03em;
   transition: background-color var(--transition-dur-and-func);
-&:hover,
-&:hover {
-  background-color: var(--color-button);
+  &:hover,
+  &:hover {
+    background-color: var(--color-button);
+  }
 }
-}
-
-
